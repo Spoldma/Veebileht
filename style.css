@@ -1,0 +1,48 @@
+body {
+    background-image: url(https://media.wickes.co.uk/is/image/wickes/GPID_1100627852_00?$largeNormal$&defaultImage=wickes/2018-Wickes-Missing-Product-650x650);
+}
+
+table, th, td {
+    font-size: 150%;
+    font-family: 'Brush Script MT', cursive;
+    border: 3px solid #964B00;
+    border-collapse: collapse;
+    background-color: azure;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 400%;
+    font: bold;
+    text-shadow: 2px 2px 0px #000000;
+    font-family: 'Brush Script MT', cursive;
+    color: azure;
+    margin-right: auto;
+    padding: 20px;
+    align-self: center;
+}
+
+h2 {
+    font-size: 200%;
+    font: bold;
+    font-family: 'Brush Script MT', cursive;
+    color: rgb(0, 0, 0);
+}
+
+img {
+    border: 3px solid #964B00;
+    border-collapse: collapse;
+    background-color: azure;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
